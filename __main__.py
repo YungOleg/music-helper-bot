@@ -3,7 +3,6 @@ from bot import dp
 from genius.genius_request import *
 from genius.genius_fsm import *
 
-
 @dp.message_handler(commands=["start"])
 async def start(msg: types.Message):
     await msg.answer("Привет!")
