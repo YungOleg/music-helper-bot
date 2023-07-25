@@ -10,3 +10,6 @@ async def lyrics_cleaner(lyrics: str) -> List[str]:
         lyrics_list[0] = lyrics_list[0][bracket_index:]
     lyrics_list[-1] = replaced_string.strip()
     return lyrics_list
+
+async def format_translation(original_text: str, translated_text: str) -> List[str]:
+    ...

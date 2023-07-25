@@ -1,1 +1,1 @@
-# Songtranslator-bot
+# Music helper bot
